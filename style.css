@@ -42,24 +42,7 @@
   margin-bottom:30px;
 }
 
-/* Update your main container */
-.hero-container {
-  display: flex;
-  justify-content: center; /* Centers the content block on the page */
-  align-items: center;    
-  gap: 80px;               /* 👈 ADJUST THIS: Adds a nice 80px space between the text and photo */
-  max-width: 1100px;      
-  margin: 50px auto;      
-  padding: 0 20px;        
-}
 
-/* Update your image class */
-.hero-image {
-  width: 250px;            /* Set a fixed square width */
-  height: 250px;           /* 👈 CRITICAL: Must match the width to make it a perfect square */
-  object-fit: cover;       /* 👈 IMPORTANT: Prevents the photo from looking squished or distorted */
-  border-radius: 50%;      /* 👈 MAGIC: Turns the square into a perfect circle */
-}
 
 /* Skills */
 
