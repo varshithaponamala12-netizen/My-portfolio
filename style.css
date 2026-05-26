@@ -41,7 +41,31 @@
 .page h1{
   margin-bottom:30px;
 }
+.hero-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:120px;   /* space between text and image */
+    height:100vh;
+}
 
+.text-content h1{
+    font-size:70px;
+    color:#111;
+}
+
+.text-content p{
+    font-size:28px;
+    margin-top:20px;
+}
+
+.image-content img{
+    width:250px;
+    height:250px;
+    border-radius:50%;   /* makes image circle */
+    object-fit:cover;
+    border:6px solid darkgreen;
+}
 
 
 /* Skills */
