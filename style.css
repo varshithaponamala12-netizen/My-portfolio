@@ -42,7 +42,6 @@
   margin-bottom:30px;
 }
 
-
 /* Update your main container */
 .hero-container {
   display: flex;
@@ -61,8 +60,6 @@
   object-fit: cover;       /* 👈 IMPORTANT: Prevents the photo from looking squished or distorted */
   border-radius: 50%;      /* 👈 MAGIC: Turns the square into a perfect circle */
 }
-
-
 
 /* Skills */
 
