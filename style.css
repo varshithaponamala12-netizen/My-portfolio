@@ -41,31 +41,27 @@
 .page h1{
   margin-bottom:30px;
 }
-.hero-section{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:120px;   /* space between text and image */
-    height:100vh;
+
+
+/* Update your main container */
+.hero-container {
+  display: flex;
+  justify-content: center; /* Centers the content block on the page */
+  align-items: center;    
+  gap: 80px;               /* 👈 ADJUST THIS: Adds a nice 80px space between the text and photo */
+  max-width: 1100px;      
+  margin: 50px auto;      
+  padding: 0 20px;        
 }
 
-.text-content h1{
-    font-size:70px;
-    color:#111;
+/* Update your image class */
+.hero-image {
+  width: 250px;            /* Set a fixed square width */
+  height: 250px;           /* 👈 CRITICAL: Must match the width to make it a perfect square */
+  object-fit: cover;       /* 👈 IMPORTANT: Prevents the photo from looking squished or distorted */
+  border-radius: 50%;      /* 👈 MAGIC: Turns the square into a perfect circle */
 }
 
-.text-content p{
-    font-size:28px;
-    margin-top:20px;
-}
-
-.image-content img{
-    width:250px;
-    height:250px;
-    border-radius:50%;   /* makes image circle */
-    object-fit:cover;
-    border:6px solid darkgreen;
-}
 
 
 /* Skills */
